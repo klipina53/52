@@ -129,6 +129,7 @@
     <Compile Include="Classes\StudentContext.cs" />
     <Compile Include="Classes\WorkContext.cs" />
     <Compile Include="Common\Connection.cs" />
+    <Compile Include="Common\Report.cs" />
     <Compile Include="Items\Student.xaml.cs">
       <DependentUpon>Student.xaml</DependentUpon>
     </Compile>
