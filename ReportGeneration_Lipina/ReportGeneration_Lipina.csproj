@@ -119,6 +119,11 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Classes\DisciplineContext.cs" />
+    <Compile Include="Classes\EvaluationContext.cs" />
+    <Compile Include="Classes\GroupContext.cs" />
+    <Compile Include="Classes\StudentContext.cs" />
+    <Compile Include="Classes\WorkContext.cs" />
     <Compile Include="Common\Connection.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -158,7 +163,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Classes\" />
     <Folder Include="Images\" />
     <Folder Include="Items\" />
     <Folder Include="Pages\" />
