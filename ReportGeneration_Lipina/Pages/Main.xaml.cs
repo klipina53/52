@@ -1,4 +1,5 @@
 ﻿using ReportGeneration_Lipina.Classes;
+using ReportGeneration_Lipina.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -72,7 +73,7 @@ namespace ReportGeneration_Lipina.Pages
             if (CBGroups.SelectedIndex != CBGroups.Items.Count - 1)
             {
                 int IdGroup = AllGroups.Find(x => x.Name == CBGroups.SelectedItem).Id;
-                Classes.Common.Report.Group(IdGroup, this);
+                Common.Report.Group(IdGroup, this);
             }
         }
     }

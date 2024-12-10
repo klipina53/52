@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Windows;
 using Excel = Microsoft.Office.Interop.Excel;
 
-namespace   ReportGeneration_LipinaCommon
+namespace   ReportGeneration_Lipina.Common
 {
     public class Report
     {
